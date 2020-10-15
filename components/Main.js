@@ -16,7 +16,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
-          <p>After 13 years in the professional sailing world, I went back to school to pursue my passion for technology. I love making Apps with intuitive user experience - focusing on surf and weather prediction. I graduated from our local university at UCSC and have since worked in the health and data space.</p>
+          <p>I am a passionate Softwre Engineer focusing on Web and front-end experiences. I love making apps that are beautiful and easy to use.</p>
           {close}
         </article>
 
@@ -24,7 +24,7 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src="/static/images/pic02.jpg" alt="" /></span>
           <ul>
-            <li><a href="https://www.vernor.netlify.app/landing" target="none">Vernor Surfboards</a></li>
+            <li><a href="http://vernorsurfboards.com" target="none">Vernor Surfboards</a></li>
           </ul>
           {close}
         </article>
@@ -32,6 +32,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
+          <p>After 13 years in the professional sailing world, I went back to school to pursue my passion for technology. I love making Apps with intuitive user experience - focusing on surf and weather prediction. I graduated from our local university at UCSC and have since worked in the health and data space.</p>
           {close}
         </article>
 

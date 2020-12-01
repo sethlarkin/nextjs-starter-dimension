@@ -13,10 +13,10 @@ class Main extends React.Component {
     return (
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
-        <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        {/* <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
-          <p>I am a passionate Softwre Engineer focusing on Web and front-end experiences. I love making apps that are beautiful and easy to use.</p>
+          <p>I am a passionate Software Engineer focusing on Web and front-end experiences. I love making apps that are beautiful and easy to use.</p>
           {close}
         </article>
 
@@ -71,7 +71,7 @@ class Main extends React.Component {
             </a></li>
           </ul>
           {close}
-        </article>
+        </article> */}
 
       </div>
     )
